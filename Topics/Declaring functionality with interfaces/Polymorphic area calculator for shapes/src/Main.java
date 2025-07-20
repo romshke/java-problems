@@ -55,5 +55,7 @@ public class Main {
 
         double area = shape.calculateArea();
         System.out.printf("%.2f\n", area);
+
+        scanner.close();
     }
 }

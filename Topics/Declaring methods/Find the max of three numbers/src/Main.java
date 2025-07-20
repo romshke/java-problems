@@ -22,5 +22,7 @@ public class Main {
         final int c = scanner.nextInt();
 
         System.out.println(getNumberOfMaxParam(a, b, c));
+
+        scanner.close();
     }
 }

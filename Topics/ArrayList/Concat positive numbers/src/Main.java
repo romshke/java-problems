@@ -33,6 +33,8 @@ class ConcatPositiveNumbersProblem {
         ArrayList<Integer> result = concatPositiveNumbers(list1, list2);
 
         result.forEach(n -> System.out.print(n + " "));
+
+        scanner.close();
     }
 
     /* Do not modify this method */

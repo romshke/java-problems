@@ -24,7 +24,9 @@ public class Main {
                 };
 
         System.out.println(returner.returnString());
-        System.out.println(returner.returnInt()); 
+        System.out.println(returner.returnInt());
+
+        scanner.close();
     }
 }
 

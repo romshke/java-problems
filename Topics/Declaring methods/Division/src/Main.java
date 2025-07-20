@@ -13,5 +13,6 @@ public class Main {
         final long a = scanner.nextLong();
         final long b = scanner.nextLong();
         System.out.println(divide(a, b));
+        scanner.close();
     }
 }

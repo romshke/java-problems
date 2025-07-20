@@ -18,5 +18,7 @@ class Main {
 
         System.out.println(ints[0]);
         System.out.println(ints[1]);
+
+        scanner.close();
     }
 }

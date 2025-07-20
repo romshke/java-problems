@@ -25,5 +25,6 @@ public class Main {
                 .toArray();
         sort(numbers);
         Arrays.stream(numbers).forEach(e -> System.out.print(e + " "));
+        scanner.close();
     }
 }

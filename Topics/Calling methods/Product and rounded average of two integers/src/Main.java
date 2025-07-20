@@ -22,5 +22,7 @@ public class Main {
         // Call the methods here and print the result.
         System.out.println(product(num1, num2));
         System.out.println(average(num1, num2));
+
+        scanner.close();
     }
 }

@@ -12,5 +12,7 @@ public class Main {
 
         // Print the result
         System.out.println(outputChar);
+
+        scanner.close();
     }
 }

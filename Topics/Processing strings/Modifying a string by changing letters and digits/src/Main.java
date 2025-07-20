@@ -10,5 +10,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String s = input.nextLine();
         System.out.println(transformString(s));
+        input.close();
     }
 }

@@ -25,6 +25,8 @@ public class Main {
 
         // Print out the number of common scores
         System.out.println(commonScores);
+
+        scanner.close();
     }
 
     // Declare method findCommonScores here

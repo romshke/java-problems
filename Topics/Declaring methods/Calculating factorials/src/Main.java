@@ -17,5 +17,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         long n = Integer.parseInt(scanner.nextLine().trim());
         System.out.println(factorial(n));
+        scanner.close();
     }
 }
