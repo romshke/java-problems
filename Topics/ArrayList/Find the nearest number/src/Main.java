@@ -12,7 +12,7 @@ public class Main {
             list.add(Integer.parseInt(s));
         }
         int number = scanner.nextInt();
-        int minDifference = Math.abs(list.get(0) - number);
+        int minDifference = Math.abs(list.getFirst() - number);
 
         for (int i : list) {
             if (Math.abs(i - number) < minDifference) {

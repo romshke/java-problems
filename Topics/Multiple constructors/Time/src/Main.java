@@ -1,8 +1,8 @@
 class Time {
 
-    int hours;
-    int minutes;
-    int seconds;
+    final int hours;
+    final int minutes;
+    final int seconds;
 
     public Time(int hours) {
         this.hours = hours;

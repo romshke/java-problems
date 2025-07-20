@@ -19,5 +19,6 @@ public class Main {
         final int n = scanner.nextInt();
         final int m = scanner.nextInt();
         System.out.println(power(n, m));
+        scanner.close();
     }
 }

@@ -9,5 +9,7 @@ public class Main {
 
         String number = scanner.nextLine();
         System.out.println(number.matches(regex) ? "YES" : "NO");
+
+        scanner.close();
     }
 }

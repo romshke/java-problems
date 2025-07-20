@@ -3,14 +3,14 @@ import java.util.Scanner;
 // Define the Circle class here
 class Circle {
     // Declare the properties of the Circle class here
-    private int radius;
+    private final int radius;
 
 
     /* Define the default and parameterized constructors here. The constructors should initialize the 
        'radius' property with the given or default value and 'area' property with the value calculated as πr^2 
         rounded off to the nearest whole number. */
     public Circle() {
-        this.radius = 1;;
+        this.radius = 1;
     }
 
     public Circle(int radius) {

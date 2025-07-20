@@ -6,6 +6,7 @@ class MultipleFunction {
         Scanner scanner = new Scanner(System.in);
         double x = scanner.nextDouble();
         System.out.println(f(x));
+        scanner.close();
     }
 
     public static double f(double x) {

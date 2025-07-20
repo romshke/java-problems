@@ -9,14 +9,16 @@ public class Main {
         String input = scanner.nextLine();
 
         // Initialize a new string to store the result
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         // Your code here
         for (char i : input.toCharArray()) {
-            result += "" + i + i;
+            result.append(i).append(i);
         }
 
         // Print the result to the standard output
         System.out.println(result);
+
+        scanner.close();
     }
 }

@@ -18,5 +18,6 @@ public class Main {
         int val = scanner.nextInt();
         print(str);
         print(str, val);
+        scanner.close();
     }
 }

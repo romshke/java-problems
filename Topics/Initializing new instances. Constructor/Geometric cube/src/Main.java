@@ -13,14 +13,16 @@ public class Main {
         // creating an instance
         GeometricCuboid cuboid = new GeometricCuboid(width, height, length);
 
-        System.out.println(cuboid.toString());
+        System.out.println(cuboid);
+
+        scanner.close();
     }
 }
 
 class GeometricCuboid {
-    private int width;
-    private int height;
-    private int length;
+    private final int width;
+    private final int height;
+    private final int length;
 
     public GeometricCuboid(int width, int height, int length) {
         this.width = width;

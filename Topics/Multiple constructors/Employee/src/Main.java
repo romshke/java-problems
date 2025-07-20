@@ -1,8 +1,8 @@
 class Employee {
 
-    String name;
-    int salary;
-    String address;
+    final String name;
+    final int salary;
+    final String address;
 
     Employee() {
         this.name = "unknown";

@@ -56,5 +56,7 @@ public class Main {
                 System.out.printf("%s%n%s", coloredCircle.name(), coloredCircle.color());
                 break;
         }
+
+        scanner.close();
     }
 }

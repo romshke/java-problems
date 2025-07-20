@@ -1,7 +1,7 @@
 class Movie {
-    private String title;
-    private String desc;
-    private int year;
+    private final String title;
+    private final String desc;
+    private final int year;
 
     // write two constructors here
     public Movie(String title, String desc, int year) {

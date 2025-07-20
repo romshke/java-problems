@@ -1,7 +1,7 @@
 abstract class IntBinaryOperation {
 
-    protected int firstArg;
-    protected int secondArg;
+    protected final int firstArg;
+    protected final int secondArg;
 
     public IntBinaryOperation(int firstArg, int secondArg) {
         this.firstArg = firstArg;

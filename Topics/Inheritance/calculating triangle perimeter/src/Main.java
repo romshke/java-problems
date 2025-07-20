@@ -36,5 +36,7 @@ public class Main {
 
         // Calculate and print the area
         System.out.println(square.area());
+
+        scanner.close();
     }
 }

@@ -21,13 +21,15 @@ public class Main {
         String input = scanner.nextLine();
 
         try {
-            Integer integerInput = Integer.parseInt(input);
+            int integerInput = Integer.parseInt(input);
             // Call the 'process' method with the integer input and print the result
             System.out.println(process(integerInput));
         } catch (NumberFormatException e) {
-            Float floatInput = Float.parseFloat(input);
+            float floatInput = Float.parseFloat(input);
             // Call the 'process' method with the float input and print the result
             System.out.println(process(floatInput));
         }
+
+        scanner.close();
     }
 }

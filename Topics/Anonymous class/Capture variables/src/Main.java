@@ -30,7 +30,7 @@ public class Main {
 
 interface Returner {
 
-    public String returnString();
+    String returnString();
 
-    public int returnInt();
+    int returnInt();
 }

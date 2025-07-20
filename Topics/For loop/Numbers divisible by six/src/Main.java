@@ -12,5 +12,7 @@ class Main {
         }
 
         System.out.println(sum);
+
+        scanner.close();
     }
 }

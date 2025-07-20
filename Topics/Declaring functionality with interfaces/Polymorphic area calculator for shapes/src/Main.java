@@ -5,8 +5,8 @@ interface Shape {
 }
 
 class Rectangle implements Shape {
-    private double length;
-    private double width;
+    private final double length;
+    private final double width;
 
     public Rectangle(double length, double width) {
         this.length = length;
@@ -21,7 +21,7 @@ class Rectangle implements Shape {
 }
 
 class Circle implements Shape {
-    private double radius;
+    private final double radius;
 
     public Circle(double radius) {
         this.radius = radius;

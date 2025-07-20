@@ -1,6 +1,7 @@
 // write the class Complex here
 class Complex {
-    double real, imaginary;
+    final double real;
+    final double imaginary;
 
     public Complex(double real, double imaginary) {
         this.real = real;

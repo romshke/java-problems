@@ -18,6 +18,8 @@ public class Main {
         }
 
         System.out.println(result);
+
+        scanner.close();
     }
     // function isDivByThree will be here
     static boolean isDivByThree(int num) {

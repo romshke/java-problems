@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Population {
-   int year;
-   long population;
+   final int year;
+   final long population;
 
     public Population(int year, long population) {
         this.year = year;

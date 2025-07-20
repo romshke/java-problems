@@ -14,9 +14,9 @@ public class Main {
 
     static class Account {
 
-        private String code;
-        private long balance;
-        private User owner;
+        private final String code;
+        private final long balance;
+        private final User owner;
 
         public Account(String code, long balance, User owner) {
             this.code = code;
@@ -39,9 +39,9 @@ public class Main {
 
     static class User {
 
-        private String login;
-        private String firstName;
-        private String lastName;
+        private final String login;
+        private final String firstName;
+        private final String lastName;
 
         public User(String login, String firstName, String lastName) {
             this.login = login;

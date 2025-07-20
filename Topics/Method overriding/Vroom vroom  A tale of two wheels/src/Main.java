@@ -15,7 +15,7 @@ public class Main {
 }
 
 class Vehicle {
-    protected int speed;
+    protected final int speed;
 
     public Vehicle(int speed) {
         this.speed = speed;

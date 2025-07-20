@@ -7,5 +7,7 @@ public class Main {
         int number = scanner.nextInt();
 
         System.out.println(++number);
+
+        scanner.close();
     }
 }

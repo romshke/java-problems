@@ -16,6 +16,8 @@ public class Main {
         }
 
         animal.makeSound();
+
+        scanner.close();
     }
 }
 

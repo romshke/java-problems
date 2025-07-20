@@ -16,8 +16,8 @@ public class Main {
 
     static class GreekLetter {
 
-        private String letter;
-        private Integer position;
+        private final String letter;
+        private final Integer position;
 
         public GreekLetter(String letter, Integer position) {
             this.letter = letter;

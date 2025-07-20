@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Base class for vehicles
 class Vehicle {
-    protected int numWheels;
+    protected final int numWheels;
 
     public Vehicle(int wheels) {
         numWheels = wheels;

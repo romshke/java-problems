@@ -14,5 +14,6 @@ public class Main {
         String line = scanner.nextLine();
         line = "none".equalsIgnoreCase(line) ? null : line;
         System.out.println(toUpperCase(line));
+        scanner.close();
     }
 }

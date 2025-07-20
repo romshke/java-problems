@@ -17,6 +17,8 @@ class Main {
                 };
 
         System.out.println(reverser.reverse(line));
+
+        scanner.close();
     }
 
     interface StringReverser {

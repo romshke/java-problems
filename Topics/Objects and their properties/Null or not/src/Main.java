@@ -17,5 +17,6 @@ class Main {
             Object obj = "null".equals(scanner.nextLine()) ? null : new Object();
             solution.printIsNull(obj);
         }
+        scanner.close();
     }
 }

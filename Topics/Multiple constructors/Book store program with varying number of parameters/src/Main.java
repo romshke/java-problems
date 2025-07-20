@@ -4,9 +4,9 @@ public class Main {
 
     // defining class Book
     public static class Book {
-        String title;
-        String author;
-        double price;
+        final String title;
+        final String author;
+        final double price;
 
         // Your constructors go here
         // Constructor with 2 parameters: title & author
@@ -33,7 +33,7 @@ public class Main {
         // use Scanner Class for User Input
         Scanner input = new Scanner(System.in);
         String line = input.nextLine();
-        Book book = null;
+        Book book;
 
         // logic to check whether the line has title, author and price or just title and author
         String[] parts = line.split(",");
@@ -52,5 +52,7 @@ public class Main {
 
         // print the details of the book using the getDetails() method
         System.out.println(book.getDetails());
+
+        input.close();
     }
 }

@@ -1,9 +1,9 @@
 class Employee {
 
     // write fields
-    String name;
-    String email;
-    int experience;
+    final String name;
+    final String email;
+    final int experience;
 
     // write constructor
     public Employee(String name, String email, int experience) {
@@ -29,8 +29,8 @@ class Employee {
 class Developer extends Employee {
 
     // write fields
-    String mainLanguage;
-    String[] skills;
+    final String mainLanguage;
+    final String[] skills;
 
     // write constructor
     public Developer(String name, String email, int experience, String mainLanguage, String[] skills) {
@@ -52,8 +52,8 @@ class Developer extends Employee {
 class DataAnalyst extends Employee {
 
     // write fields
-    boolean phd;
-    String[] methods;
+    final boolean phd;
+    final String[] methods;
 
     // write constructor
     public DataAnalyst(String name, String email, int experience, boolean phd, String[] methods) {

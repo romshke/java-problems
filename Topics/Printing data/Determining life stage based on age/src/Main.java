@@ -15,11 +15,11 @@ public class Main {
         
         if (age <= 12) {
             System.out.println("Child");
-        } else if (13 <= age && age <= 17) {
+        } else if (age <= 17) {
             System.out.println("Teenager");
-        } else if (18 <= age && age <= 59) {
+        } else if (age <= 59) {
             System.out.println("Adult");
-        } else if (age >= 60) {
+        } else {
             System.out.println("Senior Citizen");
         }
 

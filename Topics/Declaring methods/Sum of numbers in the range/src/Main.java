@@ -27,5 +27,7 @@ public class Main {
         int to = scanner.nextInt();
 
         System.out.println(sumInRange(from, to));
+
+        scanner.close();
     } 
 }

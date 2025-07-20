@@ -1,9 +1,9 @@
 class Phone {
 
-    String ownerName;
+    final String ownerName;
     String countryCode;
     String cityCode;
-    String number;
+    final String number;
 
     Phone(String ownerName, String number) {
         this.ownerName = ownerName;

@@ -1,7 +1,7 @@
 class BankAccount {
 
-    protected String number;
-    protected Long balance;
+    protected final String number;
+    protected final Long balance;
 
     public BankAccount(String number, Long balance) {
         this.number = number;
@@ -11,7 +11,7 @@ class BankAccount {
 
 class CheckingAccount extends BankAccount {
 
-    protected double fee;
+    protected final double fee;
 
     public CheckingAccount(String number, Long balance, double fee) {
         super(number, balance);
@@ -21,7 +21,7 @@ class CheckingAccount extends BankAccount {
 
 class SavingsAccount extends BankAccount {
 
-    protected double interestRate;
+    protected final double interestRate;
 
     public SavingsAccount(String number, Long balance, double interestRate) {
         super(number, balance);

@@ -19,7 +19,8 @@ class Shape {
 
 // Define the derived class Rectangle
 class Rectangle extends Shape {
-    private double length, width;
+    private final double length;
+    private final double width;
 
     public Rectangle(String name, double length, double width) {
         super(name);
@@ -45,5 +46,7 @@ public class Main {
 
         // Print the rectangle's name and area
         System.out.printf("%s%n%.1f", rectangle.getName(), rectangle.area());
+
+        scanner.close();
     }
 }

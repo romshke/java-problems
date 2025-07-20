@@ -1,6 +1,7 @@
 // write a class here
 class Point2D {
-    float x, y;
+    final float x;
+    final float y;
 
     public Point2D() {
         this(0, 0);

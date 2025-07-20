@@ -5,7 +5,7 @@ public class Main {
 
     // Define Animal class here
     static class Animal {
-        String name;
+        final String name;
 
         Animal(String name) {
             this.name = name;

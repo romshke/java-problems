@@ -9,5 +9,7 @@ public class Main {
 
         System.out.println(line2);
         System.out.println(line1);
+
+        scanner.close();
     }
 }

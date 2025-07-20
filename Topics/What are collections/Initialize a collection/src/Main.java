@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Main {
-    ArrayList<String> list = new ArrayList<>();
+    final ArrayList<String> list = new ArrayList<>();
 
     void init() {
         // add "one", "two", "three" to list field in this order

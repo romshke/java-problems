@@ -10,7 +10,7 @@ public class Main {
         String operator = parts[1];
         double num2 = Double.parseDouble(parts[2]);
 
-        double result = 0;
+        double result;
 
         switch (operator) {
             case "+":
@@ -31,6 +31,8 @@ public class Main {
         }
 
         System.out.println(result);
+
+        scanner.close();
     }
 
     public static double add(double a, double b) {

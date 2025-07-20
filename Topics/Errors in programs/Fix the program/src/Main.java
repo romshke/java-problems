@@ -11,5 +11,7 @@ public class Main {
         String result = a + b + c;
 
         System.out.println(result);
+
+        scanner.close();
     }
 }

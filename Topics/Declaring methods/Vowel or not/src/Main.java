@@ -24,5 +24,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         char letter = scanner.nextLine().charAt(0);
         System.out.println(isVowel(letter) ? "YES" : "NO");
+        scanner.close();
     }
 }

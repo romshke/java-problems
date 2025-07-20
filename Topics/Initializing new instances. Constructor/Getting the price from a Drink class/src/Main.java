@@ -16,8 +16,8 @@ public class Main {
 
 class Drink {
     // declare attributes
-    private String name;
-    private int price;
+    private final String name;
+    private final int price;
 
     // create constructor to initialize attributes
     public Drink(String name, int price) {

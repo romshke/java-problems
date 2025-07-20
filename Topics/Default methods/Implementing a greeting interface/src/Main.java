@@ -19,5 +19,7 @@ public class Main {
         Greetings greetings = new GreetingsImpl();
         String greeting = greetings.greet(name);
         System.out.println(greeting);
+
+        scanner.close();
     }
 }

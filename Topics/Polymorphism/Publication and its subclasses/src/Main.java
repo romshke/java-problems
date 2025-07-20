@@ -1,6 +1,6 @@
 class Publication {
 
-    private String title;
+    private final String title;
 
     public Publication(String title) {
         this.title = title;
@@ -23,7 +23,7 @@ class Publication {
 
 class Newspaper extends Publication {
 
-    private String source;
+    private final String source;
 
     public Newspaper(String title, String source) {
         super(title);
@@ -45,7 +45,7 @@ class Newspaper extends Publication {
 
 class Article extends Publication {
 
-    private String author;
+    private final String author;
 
     public Article(String title, String author) {
         super(title);
@@ -67,7 +67,7 @@ class Article extends Publication {
 
 class Announcement extends Publication {
 
-    private int daysToExpire;
+    private final int daysToExpire;
 
     public Announcement(String title, int daysToExpire) {
         super(title);

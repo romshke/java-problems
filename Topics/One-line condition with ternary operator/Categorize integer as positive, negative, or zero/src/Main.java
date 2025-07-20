@@ -12,5 +12,6 @@ public class Main {
 
         System.out.println(num == 0 ? "Zero" : num < 0 ? "Negative" : "Positive");
 
+        scanner.close();
     }
 }

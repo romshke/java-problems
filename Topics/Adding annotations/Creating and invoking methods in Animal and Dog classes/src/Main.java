@@ -31,5 +31,7 @@ public class Main {
             Dog dog = new Dog();
             System.out.println(dog.makeSound());
         }
+
+        scanner.close();
     }
 }

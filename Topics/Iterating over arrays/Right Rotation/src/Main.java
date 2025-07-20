@@ -15,9 +15,7 @@ class Main {
             temp[i] = arr[j];
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = temp[i];
-        }
+        System.arraycopy(temp, 0, arr, 0, arr.length);
     }
 
     // do not change code below
