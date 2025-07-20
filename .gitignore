@@ -12,6 +12,7 @@ build
 !/Topics/*/*/src
 
 add-exp-files-to-gitignore.ps1
+open-all-files-with-with-unclosed-scanner.ps1
 .idea/.author_contents_storage_db
 .idea/.author_contents_storage_db-wal
 .idea/ChatHistory_schema_v2.xml
