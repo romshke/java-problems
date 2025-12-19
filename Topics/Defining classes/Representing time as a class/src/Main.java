@@ -1,8 +1,8 @@
 // write your class here
 class Time {
-    final int hours;
-    final int minutes;
-    final int seconds;
+    int hours;
+    int minutes;
+    int seconds;
 
     Time() {
         this.hours = 0;
