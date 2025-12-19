@@ -1,7 +1,7 @@
 // write the class Complex here
 class Complex {
-    final double real;
-    final double imaginary;
+    double real;
+    double imaginary;
 
     Complex() {
         this.real = 0.0;
